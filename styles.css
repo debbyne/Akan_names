@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+    background-image: url(images/ghana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:contain ;
+    background-image:fixed;
+    
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 100px;
+}
+.overlay h1{
+    font-size: 75px;
+    text-align: center;
+} 
+.overlay{
+    background: rgb(0, 0, 0, .5);
+    /* height:80vh; */
+    width: 1400px;
+   
+}
