@@ -22,7 +22,13 @@ body{
 .overlay{
     background: rgb(0, 0, 0, .5);
     width: 1400px;
+   padding-left: 400px;
 }
 .form-group{
     width: 520px;
+}
+.overlay1{
+    background: rgb(0, 0, 0, .5);
+    padding-top: 230px; 
+    text-align: center; 
 }
