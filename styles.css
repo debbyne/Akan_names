@@ -21,9 +21,8 @@ body{
 }
 .overlay{
     background: rgb(0, 0, 0, .5);
-    /* height:80vh; */
     width: 1400px;
 }
 .form-group{
-    width: 470px;
+    width: 520px;
 }
