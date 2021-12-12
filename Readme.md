@@ -3,7 +3,7 @@ Easy and efficient way to find your Ghanian name
 
 # Description
 This web application uses the birth dates of a user to calculate the specific
-            day they were born and thus generates their Akan Name.
+day they were born and thus generate their Akan Name.
 
 # Setup
  You get access  it at https://github.com/debbyne/Akan_names.git/
