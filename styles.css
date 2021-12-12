@@ -6,7 +6,7 @@ body{
     background-position:contain ;
     background-image:fixed;
     color: rgb(233, 231, 231);
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 200;
     padding-top: 100px;
 }
@@ -21,7 +21,7 @@ body{
 .overlay{
     background: rgb(0, 0, 0, .5);
     width: 1400px;
-   padding-left: 500px;
+   padding-left: 550px;
 }
 .form-group{
     width: 520px;
