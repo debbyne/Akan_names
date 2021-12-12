@@ -1,5 +1,5 @@
 # Akan Name Generator
-Easy and efficient way to find your Ghanian name
+Easy and efficient way to generate your Ghanian name
 
 # Description
 This web application uses the birth dates of a user to calculate the specific
