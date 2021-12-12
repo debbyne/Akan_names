@@ -6,15 +6,19 @@ body{
     background-position:contain ;
     background-image:fixed;
     
-    color: white;
-    font-size: 50px;
-    font-weight: 400;
+    color: rgb(245, 241, 241);
+    font-size: 40px;
+    font-weight: 200;
     padding-top: 100px;
 }
 .overlay h1{
-    font-size: 75px;
+    font-size: 55px;
+    font-weight: 200;
     text-align: center;
 } 
+.overlay p{
+    padding-top: 50px;
+}
 .overlay{
     background: rgb(0, 0, 0, .5);
     /* height:80vh; */
