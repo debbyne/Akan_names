@@ -7,7 +7,7 @@ body{
     background-image:fixed;
     
     color: rgb(245, 241, 241);
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 200;
     padding-top: 100px;
 }
@@ -23,5 +23,7 @@ body{
     background: rgb(0, 0, 0, .5);
     /* height:80vh; */
     width: 1400px;
-   
+}
+.form-group{
+    width: 470px;
 }
