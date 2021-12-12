@@ -21,7 +21,7 @@ body{
 .overlay{
     background: rgb(0, 0, 0, .5);
     width: 1400px;
-   padding-left: 400px;
+   padding-left: 500px;
 }
 .form-group{
     width: 520px;
