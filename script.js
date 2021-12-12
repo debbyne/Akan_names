@@ -1,10 +1,29 @@
-let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-let dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
-function validate() {
-  let genders = document.getElementsByName("gender");
-else if(genders[female].checked==false && genders[male].checked==false ) {
-    alert("You must select male or female");
-    return false;
-} 
-}  
+function akanName(){
+    var a = new Date (document.getElementById("date").value)
+    var b = a.getDay();
+    var c = document.getElementById("gender").value;
+    if(c=== male){
+        if(b===0){
+            alert("Kwasi");
+        }
+        else if(b===1){
+            alert("Kwadwo");
+        } 
+        else if(b===2){
+            alert("Kwabena");
+        }
+        else if(b===3){
+            alert("Kwaku");
+        }
+        else  if(b===4){
+            alert("Yaw");
+        }
+        else if(b===5){
+            alert("Kofi");
+        }
+        else if(b===6){
+            alert("Kwame");
+        }
+    }
+  
+}
