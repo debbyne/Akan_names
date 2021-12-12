@@ -25,5 +25,27 @@ function akanName(){
             alert("Kwame");
         }
     }
-  
+   if(c=== female){
+        if(b===0){
+            alert("Akosua");
+        }
+        else if(b===1){
+            alert("Adwoa");
+        }
+        else if(b===2){
+            alert("Abenaa");
+        }
+        else if(b===3){
+            alert("Akua");
+        }
+        else if(b===4){
+            alert("Yaa");
+        }
+        else if(b===5){
+            alert("Afua");
+        }
+        else if(b===6){
+            alert("Ama");
+        }
+    }
 }
