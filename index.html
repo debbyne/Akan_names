@@ -29,13 +29,14 @@
           </p>
           <div class="form">
             <h2>Enter your details</h2>
-            <form action="javascript:akanNames" class="form-col" onSubmit="validate();">
+            <form class="form-col">
               <div class="form-group">
                 <label for="gender">Gender </label>
-                <select class="custom-select mr-sm-2">
-                  <option id="gender">Select your Gender</option>
-                  <option id="female">female</option>
-                  <option id="male">male</option>
+                <select class="custom-select mr-sm-2" id="gender" required>
+                  <option ></option>
+                  <option id="female" value="female">female</option>
+                  <option id="male" value="male">male</option>
+
                 </select>
               </div>
 
@@ -46,16 +47,17 @@
                   class="form-control"
                   id="date"
                   placeholder="Date of birth"
+                  required
                 />
               </div>
-
-              <button
+<input type="submit" value="submit" class="btn btn-primary my-1">
+              <!-- <button
                 type="submit"
                 class="btn btn-primary my-1"
                 onclick="akanNames()"
               >
                 Submit
-              </button>
+              </button> -->
             </form>
           
           </div>

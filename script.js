@@ -1,8 +1,11 @@
-function akanName(){
-    var a = new Date (document.getElementById("date").value)
+
+function akanNames(e){
+    var a = new Date (document.getElementById("date").value);
     var b = a.getDay();
     var c = document.getElementById("gender").value;
-    if(c=== male){
+    
+    if(c=== "male"){
+        console.log("male")
         if(b===0){
             alert("Kwasi");
         }
@@ -25,7 +28,8 @@ function akanName(){
             alert("Kwame");
         }
     }
-   if(c=== female){
+   if(c=== "female"){
+       console.log("female")
         if(b===0){
             alert("Akosua");
         }
@@ -48,4 +52,10 @@ function akanName(){
             alert("Ama");
         }
     }
+    
 }
+const btn=document.querySelector(".btn")
+btn.addEventListener("click",function(e){
+    e.preventDefault()
+    akanNames()
+})
