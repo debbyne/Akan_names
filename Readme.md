@@ -1,5 +1,5 @@
 # Akan Name Generator
-Easy and efficient way to generate your Ghanian name
+Easy and efficient way to generate your Ghanian name using birth dates
 
 # Description
 This web application uses the birth dates of a user to calculate the specific
@@ -8,13 +8,14 @@ day they were born and thus generate their Akan Name.
 # Setup
  You get access  it at https://github.com/debbyne/Akan_names.git/
 # Demo
-[Live DEmo]()
+[Live DEmo](https://debbyne.github.io/Akan_names/)
 
 # Technologies Used
 HTML
 CSS
 JS
 BOOTSTRAP
+
 # Author
 Debbyne Kinya
 
