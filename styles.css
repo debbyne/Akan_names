@@ -16,7 +16,7 @@ body{
    justify-content: space-between;
 }
 .head{
-    padding-right: 70px;
+    padding-right: 60px;
     padding-top: 170px;
 }
 .header .span2{
@@ -40,7 +40,7 @@ body{
 .overlay{
     background: rgb(0, 0, 0, .5);
     width: 1400px;
-   padding-left: 360px;
+   padding-left: 385px;
 }
 .form-group{
     width: 520px;
