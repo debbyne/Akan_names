@@ -40,7 +40,7 @@ body{
 .overlay{
     background: rgb(0, 0, 0, .5);
     width: 1400px;
-   padding-left: 550px;
+   padding-left: 360px;
 }
 .form-group{
     width: 520px;
