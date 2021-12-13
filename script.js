@@ -54,8 +54,8 @@ function akanNames(e){
     }
     
 }
-const btn=document.querySelector(".btn")
-btn.addEventListener("click",function(e){
+const form=document.querySelector(".form")
+form.addEventListener("submit",function(e){
     e.preventDefault()
     akanNames()
 })
