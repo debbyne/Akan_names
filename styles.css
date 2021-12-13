@@ -9,6 +9,25 @@ body{
     font-size: 40px;
     font-weight: 200;
     padding-top: 100px;
+    font-family: 'Source Code Pro', monospace;
+}
+.header{
+    display: flex;
+   justify-content: space-between;
+}
+.head{
+    padding-right: 70px;
+    padding-top: 170px;
+}
+.header .span2{
+    height: 10em;
+    width: 1.5em;
+    border-radius: 3em;
+    background: white;
+    margin: 2em;
+}
+.head span{
+    color: #ffa500;
 }
 .overlay h1{
     font-size: 55px;
@@ -30,4 +49,8 @@ body{
     background: rgb(0, 0, 0, .5);
     padding-top: 218px; 
     text-align: center; 
+}
+.btn{
+    background-color: orange;
+    border: none;
 }
